@@ -17,8 +17,9 @@ angular.module('pele')
 
             $scope.docDetails = $stateParams.obj;
             $scope.title = 'פתיחת ביאור';
-
-            $scope.noteSubject = $scope.docDetails.NOTE_SUBJECT || [];
+            if (!$scope.formData.subject){
+                $scope.noteSubject = $scope.docDetails.NOTE_SUBJECT || [];
+            }
             $scope.forwardUsers = $scope.docDetails.NOTE_SHORT_LIST || [];
             $scope.buttonsArr = $scope.docDetails.NOTE_SEND_BUTTON || [];
             $scope.actionNote = {};

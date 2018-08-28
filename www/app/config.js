@@ -363,17 +363,17 @@ angular.module('pele.config', [])
       action: "DONE"
     },
     CLOSE_DESCRIPTION: {
-      text: '<i id="CLOSE_DESCRIPTION" class="icon ion-checkmark-circled text-center"></i> סגירת בירור',
+      text: '<i id="CLOSE_DESCRIPTION" class="icon ion-checkmark-circled text-center"></i> סגירת ביאור',
       code: "CLOSE_DESCRIPTION",
       action: "CLOSE_DESCRIPTION"
     },
     OPEN_CHAT: {
-      text: '<i id="OPEN_CHAT" class="icon ion-checkmark-circled text-center"></i> פתיחת בירור',
+      text: '<i id="OPEN_CHAT" class="icon ion-checkmark-circled text-center"></i> פתיחת ביאור',
       code: "OPEN_CHAT",
       action: "OPEN_CHAT"
     },
     SEND_CHAT: {
-      text: '<i id="SEND_CHAT" class="icon ion-checkmark-circled text-center"></i> שליחת בירור',
+      text: '<i id="SEND_CHAT" class="icon ion-checkmark-circled text-center"></i> שליחת ביאור',
       code: "SEND_CHAT",
       note: true,
       action: "SEND_CHAT"
