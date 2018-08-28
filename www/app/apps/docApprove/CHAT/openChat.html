@@ -49,9 +49,6 @@
                 <h4 style="color: red">לא נמצאו עובדים התואמים לחיפוש</h4>
             </div>
         </div>
-        <div class="text-center" ng-show="hint" style="color: red">
-            <strong>{{hint}}</strong>
-        </div>
         <div class="row" ng-show="!formData.forwardUserName" style="margin: 10px 30px">
             <div class="col col-67 col-input">
                 <ion-item class="item item-input" style="border: 4px ridge #2196F3">
@@ -62,6 +59,9 @@
             <div class="col col-22">
                 <button ng-click="search(forwardUserNameSr[0].value)" class="button button-positive">חיפוש</button>
             </div>
+        </div>
+        <div class="text-center" ng-show="hint" >
+            <p style="color: red; font-weight: bold;">{{hint}}</p> 
         </div>
 
     </ion-content>
