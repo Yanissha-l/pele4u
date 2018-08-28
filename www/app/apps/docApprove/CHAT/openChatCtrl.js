@@ -16,7 +16,7 @@ angular.module('pele')
             });
 
             $scope.docDetails = $stateParams.obj;
-            $scope.title = 'פתיחת בירור';
+            $scope.title = 'פתיחת ביאור';
 
             $scope.noteSubject = $scope.docDetails.NOTE_SUBJECT || [];
             $scope.forwardUsers = $scope.docDetails.NOTE_SHORT_LIST || [];
@@ -170,7 +170,7 @@ angular.module('pele')
             $scope.showBtnActions = function () {
 
                 if (!$scope.formData.subject) {
-                    $scope.hint = "יש להזין שדה - סיבת בירור";
+                    $scope.hint = "יש להזין שדה - סיבת ביאור";
                     return false;
                 } else if (!$scope.formData.forwardUserNameSr[0].key && !$scope.formData.forwardUserName) {
                     $scope.hint = "יש להזין אחד מהשדות הנעמן";
